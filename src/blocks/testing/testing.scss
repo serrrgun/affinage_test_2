@@ -1,0 +1,31 @@
+// В этом файле должны быть стили для БЭМ-блока testing, его элементов,
+// модификаторов, псевдоселекторов, псевдоэлементов, @media-условий...
+
+.testing {
+    position: absolute;
+    top: 395px;
+    left: 0;
+    transform: rotate(-90deg);
+    font-family: Geometria-LightItalic;
+    font-size: 12px;
+
+    @media screen and (max-width: $screen-lg) {
+        display: none;
+    }
+
+    &__block {
+        position: absolute;
+        bottom: 261px;
+        left: 19.6%;
+        font-family: Philosopher-Italic;
+        font-size: 9px;
+        transform: rotate(-90deg) translateX(50%);
+
+        @media screen and (max-width: $screen-xs) {
+            bottom: auto;
+            top: 40%;
+            left: -7%;
+            z-index: 30;
+        }
+  }
+}
