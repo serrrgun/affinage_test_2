@@ -321,6 +321,11 @@
             left: auto;
             right: 0;
         }
+
+        @media screen and (max-width: $screen-lg) {
+            width: 45%;
+            top: -159px;
+        }
     }
 }
 
