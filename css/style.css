@@ -558,6 +558,9 @@ img {
         top: -198px;
         left: auto;
         right: 0; }
+      .slider__rectangle {
+        width: 45%;
+        top: -159px; }
     .title {
       min-height: 0;
       height: 0; }
